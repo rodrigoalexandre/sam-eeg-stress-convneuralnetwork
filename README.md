@@ -1,1 +1,6 @@
-# sam-stress-conv-neural-network-keras
+<div align="center">
+
+# sam-stress-multilayer-perceptron-keras
+
+<div align="justify">
+

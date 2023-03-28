@@ -1,6 +1,6 @@
 <div align="center">
 
-# sam-stress-conv-neural-network-keras
+# sam-stress-convneuralnetwork-keras
 
 <div align="justify">
 

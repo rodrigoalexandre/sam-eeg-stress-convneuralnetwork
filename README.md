@@ -9,10 +9,29 @@ This study proposes a Convolutional Neural Network (CNN) model for classifying s
 <br><br>
 The CNN model performed better (accuracy vs. computational costs) than the Multilayer Perceptron (MLP) model proposed in the sam-stress-multilayerperceptron-keras project, as can be seen in the following comparative table:
 <br><br>
-| Model | Project                                 | Teste Accuracy | Trainable Parameters | Data augmentation |
-| ----- | --------------------------------------- | -------------- | -------------------- | ----------------- |
-| CNN   | sam-stress-convneuralnetwork-keras      | 99.34%         | 45,563               | 7,700 samples     | 
-| MLP   | sam-stress-multilayerperceptron-keras   | 94.14%         | 363,011              | 4,224,000 samples |
+ <table>
+  <tr>
+    <th>Model</th>
+    <th>Project</th>
+    <th>Teste Accuracy</th>
+    <th>Trainable Parameters</th>
+    <th>Data augmentation</th>
+  </tr>
+  <tr>
+    <td>CNN</td>
+    <td>sam-stress-convneuralnetwork-keras</td>
+    <td>99.34%</td>
+    <td>45,563</td>
+    <td>7,700 samples</td>
+  </tr>
+  <tr>
+    <td>MLP</td>
+    <td>sam-stress-multilayerperceptron-keras</td>
+    <td>94.14% </td>
+    <td>363,011</td>
+    <td>4,224,000 samples</td>
+  </tr>
+</table> 
 <br><br>
 The libraries used in the project were: Tensorflow, Keras, scikit-learn, Pandas, scipy, Imbalanced-learn, Matplotlib and Seaborn. 
 

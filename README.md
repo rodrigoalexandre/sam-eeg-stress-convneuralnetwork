@@ -32,5 +32,5 @@ The CNN model performed better (accuracy vs. computational costs) than the Multi
     <td>4,224,000 samples</td>
   </tr>
 </table>
-<br>
+
 The libraries used in the project were: Tensorflow, Keras, scikit-learn, Pandas, scipy, Imbalanced-learn, Matplotlib and Seaborn. 

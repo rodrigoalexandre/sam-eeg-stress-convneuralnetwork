@@ -22,7 +22,7 @@ The CNN model performed better (accuracy vs. computational costs) than the Multi
     <td>sam-stress-convneuralnetwork-keras</td>
     <td>98.95%</td>
     <td>45,563</td>
-    <td>7,700 samples</td>
+    <td>6,600 samples</td>
   </tr>
   <tr>
     <td>MLP</td>

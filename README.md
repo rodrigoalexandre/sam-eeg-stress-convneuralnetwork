@@ -13,7 +13,7 @@ The CNN model performed better (accuracy vs. computational costs) than the Multi
   <tr>
     <th>Model</th>
     <th>Project</th>
-    <th>Teste Accuracy</th>
+    <th>Test Accuracy</th>
     <th>Trainable Parameters</th>
     <th>Data augmentation</th>
   </tr>

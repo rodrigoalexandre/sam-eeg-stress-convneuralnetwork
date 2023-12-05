@@ -30,4 +30,4 @@ The CNN model performed better (accuracy vs. computational costs) than the Multi
   </tr>
 </table>
 
-The libraries used in the project were: Tensorflow, Keras, scikit-learn, Pandas, scipy, Imbalanced-learn, Matplotlib and Seaborn. 
+The libraries used in the project were: Tensorflow, Keras, scikit-learn, Pandas, scipy, Imbalanced-learn, Matplotlib, and Seaborn. 

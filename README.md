@@ -1,33 +1,32 @@
-<div align="center">
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+![GitHub language count](https://img.shields.io/github/languages/count/rodrigoalexandre/sam-eeg-stress-convneuralnetwork)
+![GitHub top language](https://img.shields.io/github/languages/top/rodrigoalexandre/sam-eeg-stress-convneuralnetwork)
+![GitHub Repo stars](https://img.shields.io/github/stars/rodrigoalexandre/sam-eeg-stress-convneuralnetwork)
+## **DESCRIPTION**
 
-# sam-stress-convneuralnetwork-keras
+Project developed for the study presented in the article *"A Convolutional Neural Network model to detect stress levels in electroencephalogram signals"* published by *International Journal of Scientific Research in Engineering and Management* (Volume 07, Issue 12, Dec. 2023). 
 
-<div align="justify">
-Project developed for the study presented in the article "A Convolutional Neural Network model to detect stress levels in electroencephalogram signals" published by International Journal of Scientific Research in Engineering and Management (Volume 07, Issue 12, Dec. 2023).
-<br><br>
-This study proposes a Convolutional Neural Network (CNN) model for classifying stress levels using electroencephalogram data. The model was trained on data from the SAM 40 Dataset. This dataset has records of brain activity of 40 individuals who were monitored while performing certain stress-inducing activities. The CNN model achieved an accuracy rate of 98.95% in predictions.
-<br><br>
-The CNN model performed better (accuracy vs. computational costs) than the Multilayer Perceptron (MLP) model proposed in the sam-stress-multilayerperceptron-keras project, as can be seen in the following comparative table:
-<br><br>
- <table>
-  <tr>
-    <th>Model</th>
-    <th>Project</th>
-    <th>Test Accuracy</th>
-    <th>Trainable Parameters</th>
-  </tr>
-  <tr>
-    <td>CNN</td>
-    <td>sam-stress-convneuralnetwork-keras</td>
-    <td>98.95%</td>
-    <td>45,563</td>
-  </tr>
-  <tr>
-    <td>MLP</td>
-    <td>sam-stress-multilayerperceptron-sklearn</td>
-    <td>98.99% </td>
-    <td>367,011</td>
-  </tr>
-</table>
+**Chronic stress** is recognized as a contributing factor to the impairment of people's health and quality of life due to the negative impacts it causes both in personal and professional life. Several studies have proposed the use of Machine Learning techniques to classify stress levels through the analysis of data from physiological exams
 
-The libraries used in the project were: Tensorflow, Keras, scikit-learn, Pandas, scipy, Imbalanced-learn, Matplotlib, and Seaborn. 
+This study proposes a **Convolutional Neural Network** model for classifying stress levels using electroencephalogram data. The model was trained on data from a dataset that contains records of brain activity of 40 individuals who were monitored while performing certain stress-inducing activities. This study demonstrates the possibilities of using Artificial Intelligence-based solutions to assist in the healthcare field.
+<br><br>
+## **PROJECT STRUCTURE**
+
+|--- source<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- prepare-sam-dataset.ipynb (Python code to convert dataset original files to CSV)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- preprocess-sam-dataset.ipynb (Python code to performe the exploratory data analysis)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- scatter-graph-multiclass.ipynb (Python code to performe the visual data analysis)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- conv-neuralnetwork-model.ipynb.ipynb (Python code to create and train a CNN model)<br>
+|--- dataset<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- The dataset location
+<br><br>
+## **ARTICLE LINK**
+
+https://doi.org/10.55041/IJSREM27285
+<br><br>
+## **RESOURCES**
+The dataset used in this study is publicly available at https://doi.org/10.6084/m9.figshare.14562090.v1
+<br><br>
+## **LICENSE**
+This project is available under the **MIT license**. See the LICENSE file for more details.
+<br><br>

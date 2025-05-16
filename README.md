@@ -6,7 +6,7 @@
 
 Project developed for the study presented in the article *"A Convolutional Neural Network model to detect stress levels in electroencephalogram signals"* published by *International Journal of Scientific Research in Engineering and Management* (Volume 07, Issue 12, Dec. 2023). 
 
-**Chronic stress** is recognized as a contributing factor to the impairment of people's health and quality of life due to the negative impacts it causes both in personal and professional life. Several studies have proposed the use of Machine Learning techniques to classify stress levels through the analysis of data from physiological exams
+**Chronic stress** is recognized as a contributing factor to the impairment of people's health and quality of life due to the negative impacts it causes both in personal and professional life. Several studies have proposed the use of Machine Learning techniques to classify stress levels through the analysis of data from physiological exams.
 
 This study proposes a **Convolutional Neural Network** model for classifying stress levels using electroencephalogram data. The model was trained on data from a dataset that contains records of brain activity of 40 individuals who were monitored while performing certain stress-inducing activities. This study demonstrates the possibilities of using Artificial Intelligence-based solutions to assist in the healthcare field.
 <br><br>

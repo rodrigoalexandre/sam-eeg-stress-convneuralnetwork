@@ -2,7 +2,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/rodrigoalexandre/sam-eeg-stress-convneuralnetwork)
 ![GitHub top language](https://img.shields.io/github/languages/top/rodrigoalexandre/sam-eeg-stress-convneuralnetwork)
 ![GitHub Repo stars](https://img.shields.io/github/stars/rodrigoalexandre/sam-eeg-stress-convneuralnetwork)
-## **DESCRIPTION**
+## 📝 **DESCRIPTION**
 
 Project developed for the study presented in the article *"A Convolutional Neural Network model to detect stress levels in electroencephalogram signals"* published by *International Journal of Scientific Research in Engineering and Management* (Volume 07, Issue 12, Dec. 2023). 
 
@@ -10,7 +10,7 @@ Project developed for the study presented in the article *"A Convolutional Neura
 
 This study proposes a **Convolutional Neural Network** model for classifying stress levels using electroencephalogram data. The model was trained on data from a dataset that contains records of brain activity of 40 individuals who were monitored while performing certain stress-inducing activities. This study demonstrates the possibilities of using Artificial Intelligence-based solutions to assist in the healthcare field.
 <br><br>
-## **PROJECT STRUCTURE**
+## 📂 **PROJECT STRUCTURE**
 
 |--- source<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- prepare-sam-dataset.ipynb (Python code to convert dataset original files to CSV)<br>
@@ -20,13 +20,13 @@ This study proposes a **Convolutional Neural Network** model for classifying str
 |--- dataset<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- The dataset location
 <br><br>
-## **ARTICLE LINK**
+## 🔗 **ARTICLE LINK**
 
 https://doi.org/10.55041/IJSREM27285
 <br><br>
-## **RESOURCES**
+## ⚙️ **RESOURCES**
 The dataset used in this study is publicly available at https://doi.org/10.6084/m9.figshare.14562090.v1
 <br><br>
-## **LICENSE**
+## 🛡 **LICENSE**
 This project is available under the **MIT license**. See the LICENSE file for more details.
 <br><br>
